@@ -1,0 +1,4 @@
+source;share/patrol_control_service/local_setup.bash
+source;share/patrol_control_service/local_setup.dsv
+source;share/patrol_control_service/local_setup.sh
+source;share/patrol_control_service/local_setup.zsh

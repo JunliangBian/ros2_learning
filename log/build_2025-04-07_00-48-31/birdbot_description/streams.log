@@ -1,0 +1,77 @@
+[0.316s] Invoking command in '/home/bjl/bjl_ws/build/birdbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bjl/bjl_ws/src/birdbot_description -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/birdbot_description
+[0.385s] -- The C compiler identification is GNU 11.4.0
+[0.640s] -- The CXX compiler identification is GNU 11.4.0
+[0.762s] -- Detecting C compiler ABI info
+[0.867s] -- Detecting C compiler ABI info - done
+[0.872s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.872s] -- Detecting C compile features
+[0.873s] -- Detecting C compile features - done
+[0.876s] -- Detecting CXX compiler ABI info
+[1.001s] -- Detecting CXX compiler ABI info - done
+[1.007s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.007s] -- Detecting CXX compile features
+[1.007s] -- Detecting CXX compile features - done
+[1.010s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.119s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.180s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.259s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.261s] -- Added test 'lint_cmake' to check CMake code style
+[1.262s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.264s] -- Added test 'xmllint' to check XML markup files
+[1.265s] -- Configuring done
+[1.268s] -- Generating done
+[1.269s] -- Build files have been written to: /home/bjl/bjl_ws/build/birdbot_description
+[1.273s] Invoked command in '/home/bjl/bjl_ws/build/birdbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bjl/bjl_ws/src/birdbot_description -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/birdbot_description
+[1.275s] Invoking command in '/home/bjl/bjl_ws/build/birdbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_description -- -j16 -l16
+[1.304s] Invoked command in '/home/bjl/bjl_ws/build/birdbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_description -- -j16 -l16
+[1.312s] Invoking command in '/home/bjl/bjl_ws/build/birdbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_description
+[1.316s] -- Install configuration: ""
+[1.316s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch
+[1.317s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch/display_robot.launch.py
+[1.317s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch/display_robot2.launch.py
+[1.317s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch/gazebo_sim.launch.py
+[1.317s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf
+[1.317s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.gv
+[1.317s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot
+[1.317s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor
+[1.318s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor/imu.urdf.xacro
+[1.318s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor/camera.urdf.xacro
+[1.318s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor/laser.urdf.xacro
+[1.319s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/actuator
+[1.319s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/actuator/caster.urdf.xacro
+[1.320s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/actuator/wheel.urdf.xacro
+[1.320s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/base.urdf.xacro
+[1.320s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/birdbot.urdf.xacro
+[1.321s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/common_inertial.xacro
+[1.321s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins
+[1.322s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins/gazebo_control_plugin.xacro
+[1.322s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins/birdbot.ros2_control.xacro
+[1.323s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins/gazebo_sensor_plugin.xacro
+[1.323s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.pdf
+[1.324s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.xacro
+[1.324s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.urdf
+[1.325s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/config
+[1.326s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/config/display_robot_model.rviz
+[1.327s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/config/birdbot_ros2_controller.yaml
+[1.327s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world
+[1.327s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/custom_room2.world
+[1.328s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/custom_room.world
+[1.329s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/room
+[1.330s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/room/model.sdf
+[1.330s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/room/model.config
+[1.330s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/ament_index/resource_index/package_run_dependencies/birdbot_description
+[1.331s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/ament_index/resource_index/parent_prefix_path/birdbot_description
+[1.331s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/ament_prefix_path.sh
+[1.331s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/ament_prefix_path.dsv
+[1.331s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/path.sh
+[1.332s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/path.dsv
+[1.332s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.bash
+[1.332s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.sh
+[1.333s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.zsh
+[1.334s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.dsv
+[1.334s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.dsv
+[1.334s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/ament_index/resource_index/packages/birdbot_description
+[1.335s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/cmake/birdbot_descriptionConfig.cmake
+[1.335s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/cmake/birdbot_descriptionConfig-version.cmake
+[1.335s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.xml
+[1.338s] Invoked command in '/home/bjl/bjl_ws/build/birdbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_description

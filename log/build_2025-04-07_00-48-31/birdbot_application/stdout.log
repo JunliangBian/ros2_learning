@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/birdbot_application/birdbot_application.egg-info
+writing ../../build/birdbot_application/birdbot_application.egg-info/PKG-INFO
+writing dependency_links to ../../build/birdbot_application/birdbot_application.egg-info/dependency_links.txt
+writing entry points to ../../build/birdbot_application/birdbot_application.egg-info/entry_points.txt
+writing requirements to ../../build/birdbot_application/birdbot_application.egg-info/requires.txt
+writing top-level names to ../../build/birdbot_application/birdbot_application.egg-info/top_level.txt
+writing manifest file '../../build/birdbot_application/birdbot_application.egg-info/SOURCES.txt'
+reading manifest file '../../build/birdbot_application/birdbot_application.egg-info/SOURCES.txt'
+writing manifest file '../../build/birdbot_application/birdbot_application.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bjl/bjl_ws/build/birdbot_application/build
+creating /home/bjl/bjl_ws/build/birdbot_application/build/lib
+creating /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application
+copying birdbot_application/nav_to_pose.py -> /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application
+copying birdbot_application/get_robot_pose.py -> /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application
+copying birdbot_application/init_robot_pose.py -> /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application
+copying birdbot_application/waypoint_follower.py -> /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application
+copying birdbot_application/__init__.py -> /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application
+running install
+running install_lib
+creating /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application
+copying /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application/nav_to_pose.py -> /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application
+copying /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application/get_robot_pose.py -> /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application
+copying /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application/init_robot_pose.py -> /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application
+copying /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application/waypoint_follower.py -> /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application
+copying /home/bjl/bjl_ws/build/birdbot_application/build/lib/birdbot_application/__init__.py -> /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application
+byte-compiling /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/bjl/bjl_ws/install/birdbot_application/share/ament_index
+creating /home/bjl/bjl_ws/install/birdbot_application/share/ament_index/resource_index
+creating /home/bjl/bjl_ws/install/birdbot_application/share/ament_index/resource_index/packages
+copying resource/birdbot_application -> /home/bjl/bjl_ws/install/birdbot_application/share/ament_index/resource_index/packages
+copying package.xml -> /home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application
+running install_egg_info
+Copying ../../build/birdbot_application/birdbot_application.egg-info to /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_robot_pose script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+Installing init_robot_pose script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+Installing nav_to_pose script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+Installing waypoint_follower script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+writing list of installed files to '/home/bjl/bjl_ws/build/birdbot_application/install.log'

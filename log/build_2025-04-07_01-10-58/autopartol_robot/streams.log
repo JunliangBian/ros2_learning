@@ -1,0 +1,21 @@
+[1.149s] Invoking command in '/home/bjl/bjl_ws/src/autopartol_robot': PYTHONPATH=/home/bjl/bjl_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/bjl/bjl_ws/build/autopartol_robot/build install --record /home/bjl/bjl_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[1.310s] running egg_info
+[1.312s] writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[1.312s] writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[1.313s] writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[1.313s] writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[1.313s] writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[1.316s] reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[1.318s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[1.318s] running build
+[1.318s] running build_py
+[1.318s] running install
+[1.318s] running install_lib
+[1.320s] running install_data
+[1.321s] running install_egg_info
+[1.321s] removing '/home/bjl/bjl_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.322s] Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/bjl/bjl_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[1.322s] running install_scripts
+[1.339s] Installing partol_node script to /home/bjl/bjl_ws/install/autopartol_robot/lib/autopartol_robot
+[1.339s] writing list of installed files to '/home/bjl/bjl_ws/build/autopartol_robot/install.log'
+[1.380s] Invoked command in '/home/bjl/bjl_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/bjl/bjl_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/bjl/bjl_ws/build/autopartol_robot/build install --record /home/bjl/bjl_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+{
+  "package_name": "autopartol_interface",
+  "non_idl_tuples": [
+    "/home/bjl/bjl_ws/src/autopartol_interface:srv/SpeechText.srv"
+  ]
+}

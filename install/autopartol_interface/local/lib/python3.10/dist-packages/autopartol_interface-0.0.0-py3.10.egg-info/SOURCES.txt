@@ -1,0 +1,8 @@
+setup.py
+autopartol_interface/__init__.py
+autopartol_interface.egg-info/PKG-INFO
+autopartol_interface.egg-info/SOURCES.txt
+autopartol_interface.egg-info/dependency_links.txt
+autopartol_interface.egg-info/top_level.txt
+autopartol_interface/srv/__init__.py
+autopartol_interface/srv/_speech_text.py

@@ -1,0 +1,24 @@
+[1.011s] Invoking command in '/home/bjl/bjl_ws/src/birdbot_application': PYTHONPATH=/home/bjl/bjl_ws/build/birdbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/birdbot_application build --build-base /home/bjl/bjl_ws/build/birdbot_application/build install --record /home/bjl/bjl_ws/build/birdbot_application/install.log --single-version-externally-managed install_data
+[1.242s] running egg_info
+[1.243s] writing ../../build/birdbot_application/birdbot_application.egg-info/PKG-INFO
+[1.245s] writing dependency_links to ../../build/birdbot_application/birdbot_application.egg-info/dependency_links.txt
+[1.246s] writing entry points to ../../build/birdbot_application/birdbot_application.egg-info/entry_points.txt
+[1.246s] writing requirements to ../../build/birdbot_application/birdbot_application.egg-info/requires.txt
+[1.246s] writing top-level names to ../../build/birdbot_application/birdbot_application.egg-info/top_level.txt
+[1.247s] reading manifest file '../../build/birdbot_application/birdbot_application.egg-info/SOURCES.txt'
+[1.247s] writing manifest file '../../build/birdbot_application/birdbot_application.egg-info/SOURCES.txt'
+[1.247s] running build
+[1.248s] running build_py
+[1.250s] running install
+[1.251s] running install_lib
+[1.251s] running install_data
+[1.251s] running install_egg_info
+[1.251s] removing '/home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[1.251s] Copying ../../build/birdbot_application/birdbot_application.egg-info to /home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages/birdbot_application-0.0.0-py3.10.egg-info
+[1.251s] running install_scripts
+[1.252s] Installing get_robot_pose script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+[1.252s] Installing init_robot_pose script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+[1.252s] Installing nav_to_pose script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+[1.252s] Installing waypoint_follower script to /home/bjl/bjl_ws/install/birdbot_application/lib/birdbot_application
+[1.252s] writing list of installed files to '/home/bjl/bjl_ws/build/birdbot_application/install.log'
+[1.310s] Invoked command in '/home/bjl/bjl_ws/src/birdbot_application' returned '0': PYTHONPATH=/home/bjl/bjl_ws/build/birdbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/birdbot_application build --build-base /home/bjl/bjl_ws/build/birdbot_application/build install --record /home/bjl/bjl_ws/build/birdbot_application/install.log --single-version-externally-managed install_data

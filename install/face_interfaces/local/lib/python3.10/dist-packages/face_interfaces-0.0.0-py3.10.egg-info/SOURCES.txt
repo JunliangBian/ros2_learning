@@ -1,0 +1,9 @@
+setup.py
+face_interfaces/__init__.py
+face_interfaces.egg-info/PKG-INFO
+face_interfaces.egg-info/SOURCES.txt
+face_interfaces.egg-info/dependency_links.txt
+face_interfaces.egg-info/top_level.txt
+face_interfaces/srv/__init__.py
+face_interfaces/srv/_face_detector.py
+face_interfaces/srv/_partol.py

@@ -1,0 +1,861 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbc1c4e1810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbc1c646c50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbc1c646c50>>)
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bjl/bjl_ws'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interface) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_interface' with type 'ros.ament_cmake' and name 'autopartol_interface'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_robot' with type 'ros.ament_python' and name 'autopartol_robot'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_application) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/birdbot_application' with type 'ros.ament_python' and name 'birdbot_application'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_description) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/birdbot_description' with type 'ros.ament_cmake' and name 'birdbot_description'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/birdbot_navigation2) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/birdbot_navigation2' with type 'ros.ament_cmake' and name 'birdbot_navigation2'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_topic) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_cpp_topic' with type 'ros.ament_cmake' and name 'demo_cpp_topic'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_topic) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_python_topic' with type 'ros.ament_python' and name 'demo_python_topic'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_interfaces) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_interfaces' with type 'ros.ament_cmake' and name 'face_interfaces'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_python_service) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_python_service' with type 'ros.ament_python' and name 'face_python_service'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/patrol_control_service) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/patrol_control_service' with type 'ros.ament_cmake' and name 'patrol_control_service'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_display' with type 'ros.ament_cmake' and name 'status_display'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_interfaces' with type 'ros.ament_cmake' and name 'status_interfaces'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_publisher' with type 'ros.ament_python' and name 'status_publisher'
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/bjl/bjl_ws/install
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 368 installed packages in /opt/ros/humble
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/autopartol_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/autopartol_interface', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/autopartol_interface', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/autopartol_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/autopartol_robot', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/autopartol_robot', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'birdbot_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/birdbot_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/birdbot_application', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/birdbot_application', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'birdbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'birdbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/birdbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/birdbot_description', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/birdbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'birdbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'birdbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/birdbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/birdbot_navigation2', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/birdbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'demo_cpp_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/demo_cpp_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/demo_cpp_topic', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/demo_cpp_topic', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'demo_python_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'demo_python_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/demo_python_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/demo_python_topic', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/demo_python_topic', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'face_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/face_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/face_interfaces', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/face_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'status_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/status_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/status_interfaces', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/status_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'face_python_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'face_python_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/face_python_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/face_python_service', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/face_python_service', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'patrol_control_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'patrol_control_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/patrol_control_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/patrol_control_service', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/patrol_control_service', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'status_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/status_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/status_display', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/status_display', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'status_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bjl/bjl_ws/build/status_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bjl/bjl_ws/install/status_publisher', 'merge_install': False, 'path': '/home/bjl/bjl_ws/src/status_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.281s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/face_interfaces' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/face_interfaces'
+[0.284s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/status_interfaces' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/status_interfaces'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/autopartol_interface' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/autopartol_interface'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bjl/bjl_ws/src/autopartol_robot' with build type 'ament_python'
+[0.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'ament_prefix_path')
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.dsv'
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bjl/bjl_ws/src/birdbot_application' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('birdbot_application', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/hook/ament_prefix_path.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/hook/ament_prefix_path.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/hook/ament_prefix_path.sh'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/birdbot_description' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/birdbot_description'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/birdbot_navigation2' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/birdbot_navigation2'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/demo_cpp_topic' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/demo_cpp_topic'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bjl/bjl_ws/src/demo_python_topic' with build type 'ament_python'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_topic', 'ament_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/hook/ament_prefix_path.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/hook/ament_prefix_path.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/face_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/face_interfaces -- -j16 -l16
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_interfaces -- -j16 -l16
+[0.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/autopartol_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/autopartol_interface -- -j16 -l16
+[0.550s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bjl/bjl_ws/src/autopartol_robot'
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.713s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bjl/bjl_ws/src/birdbot_application'
+[0.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/birdbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_description -- -j16 -l16
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/birdbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_navigation2 -- -j16 -l16
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/demo_cpp_topic -- -j16 -l16
+[0.895s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bjl/bjl_ws/src/demo_python_topic'
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/face_interfaces -- -j16 -l16
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/face_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/face_interfaces
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/autopartol_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/autopartol_interface -- -j16 -l16
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/autopartol_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/autopartol_interface
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_interfaces -- -j16 -l16
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_interfaces
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/birdbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_description -- -j16 -l16
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/birdbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_description
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/birdbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_navigation2 -- -j16 -l16
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/birdbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_navigation2
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/demo_cpp_topic -- -j16 -l16
+[0.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/demo_cpp_topic
+[0.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(birdbot_description)
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description' for CMake module files
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description' for CMake config files
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('birdbot_description', 'cmake_prefix_path')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/hook/cmake_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/hook/cmake_prefix_path.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/hook/cmake_prefix_path.sh'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/bin'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/lib/pkgconfig/birdbot_description.pc'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/lib/python3.10/site-packages'
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/bin'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.ps1'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.dsv'
+[0.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.sh'
+[1.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.bash'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.zsh'
+[1.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/birdbot_description/share/colcon-core/packages/birdbot_description)
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(birdbot_description)
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description' for CMake module files
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description' for CMake config files
+[1.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('birdbot_description', 'cmake_prefix_path')
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/hook/cmake_prefix_path.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/hook/cmake_prefix_path.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/hook/cmake_prefix_path.sh'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/bin'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/lib/pkgconfig/birdbot_description.pc'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/lib/python3.10/site-packages'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_description/bin'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.dsv'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.sh'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.bash'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.zsh'
+[1.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/birdbot_description/share/colcon-core/packages/birdbot_description)
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/birdbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_description
+[1.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(birdbot_navigation2)
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2' for CMake module files
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2' for CMake config files
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('birdbot_navigation2', 'cmake_prefix_path')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/birdbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_navigation2
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/hook/cmake_prefix_path.sh'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/bin'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/lib/pkgconfig/birdbot_navigation2.pc'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/lib/python3.10/site-packages'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/bin'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.sh'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.bash'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.zsh'
+[1.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/birdbot_navigation2/share/colcon-core/packages/birdbot_navigation2)
+[1.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(birdbot_navigation2)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2' for CMake module files
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2' for CMake config files
+[1.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('birdbot_navigation2', 'cmake_prefix_path')
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/hook/cmake_prefix_path.sh'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/bin'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/lib/pkgconfig/birdbot_navigation2.pc'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/lib/python3.10/site-packages'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_navigation2/bin'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.sh'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.zsh'
+[1.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/birdbot_navigation2/share/colcon-core/packages/birdbot_navigation2)
+[1.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_topic)
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic' for CMake module files
+[1.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/demo_cpp_topic
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic' for CMake config files
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_topic', 'cmake_prefix_path')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/hook/cmake_prefix_path.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/hook/cmake_prefix_path.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/hook/cmake_prefix_path.sh'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/lib'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/bin'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/lib/pkgconfig/demo_cpp_topic.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/bin'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.bash'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.zsh'
+[1.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/demo_cpp_topic/share/colcon-core/packages/demo_cpp_topic)
+[1.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_topic)
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic' for CMake module files
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic' for CMake config files
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_topic', 'cmake_prefix_path')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/hook/cmake_prefix_path.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/hook/cmake_prefix_path.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/hook/cmake_prefix_path.sh'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/lib'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/bin'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/lib/pkgconfig/demo_cpp_topic.pc'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/lib/python3.10/site-packages'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_cpp_topic/bin'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.sh'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.bash'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.zsh'
+[1.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/demo_cpp_topic/share/colcon-core/packages/demo_cpp_topic)
+[1.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_interface)
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface' for CMake module files
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/autopartol_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/autopartol_interface
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface' for CMake config files
+[1.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interface', 'cmake_prefix_path')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/cmake_prefix_path.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/cmake_prefix_path.dsv'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/cmake_prefix_path.sh'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/lib'
+[1.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interface', 'ld_library_path_lib')
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/ld_library_path_lib.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/ld_library_path_lib.dsv'
+[1.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/ld_library_path_lib.sh'
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/bin'
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/lib/pkgconfig/autopartol_interface.pc'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/lib/python3.10/site-packages'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/bin'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.sh'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.bash'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.zsh'
+[1.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/autopartol_interface/share/colcon-core/packages/autopartol_interface)
+[1.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_interface)
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface' for CMake module files
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface' for CMake config files
+[1.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interface', 'cmake_prefix_path')
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/cmake_prefix_path.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/cmake_prefix_path.dsv'
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/cmake_prefix_path.sh'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/lib'
+[1.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interface', 'ld_library_path_lib')
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/ld_library_path_lib.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/ld_library_path_lib.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/hook/ld_library_path_lib.sh'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/bin'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/lib/pkgconfig/autopartol_interface.pc'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/lib/python3.10/site-packages'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_interface/bin'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.ps1'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.dsv'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.sh'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.bash'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.zsh'
+[1.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/autopartol_interface/share/colcon-core/packages/autopartol_interface)
+[1.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_interfaces)
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces' for CMake module files
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces' for CMake config files
+[1.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/face_interfaces
+[1.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interfaces', 'cmake_prefix_path')
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.ps1'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.dsv'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.sh'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/lib'
+[1.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interfaces', 'ld_library_path_lib')
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.sh'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/bin'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/lib/pkgconfig/face_interfaces.pc'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/lib/python3.10/site-packages'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/bin'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.sh'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.bash'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.zsh'
+[1.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/face_interfaces/share/colcon-core/packages/face_interfaces)
+[1.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_interfaces)
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces' for CMake module files
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces' for CMake config files
+[1.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interfaces', 'cmake_prefix_path')
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.sh'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/lib'
+[1.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_interfaces', 'ld_library_path_lib')
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.sh'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/bin'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/lib/pkgconfig/face_interfaces.pc'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/lib/python3.10/site-packages'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_interfaces/bin'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.sh'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.bash'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.zsh'
+[1.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/face_interfaces/share/colcon-core/packages/face_interfaces)
+[1.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces' for CMake module files
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces' for CMake config files
+[1.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_interfaces
+[1.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/lib'
+[1.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/bin'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/lib/python3.10/site-packages'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/bin'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.sh'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.bash'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.zsh'
+[1.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[1.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces' for CMake module files
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces' for CMake config files
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/lib'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/bin'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/lib/python3.10/site-packages'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_interfaces/bin'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.sh'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.bash'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/package.zsh'
+[1.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[1.157s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bjl/bjl_ws/src/face_python_service' with build type 'ament_python'
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_python_service', 'ament_prefix_path')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/hook/ament_prefix_path.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/hook/ament_prefix_path.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/hook/ament_prefix_path.sh'
+[1.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/patrol_control_service' with build type 'ament_cmake'
+[1.164s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/patrol_control_service'
+[1.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bjl/bjl_ws/src/status_display' with build type 'ament_cmake'
+[1.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bjl/bjl_ws/src/status_display'
+[1.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bjl/bjl_ws/src/status_publisher' with build type 'ament_python'
+[1.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'ament_prefix_path')
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/hook/ament_prefix_path.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/hook/ament_prefix_path.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/hook/ament_prefix_path.sh'
+[1.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/src/birdbot_application': PYTHONPATH=/home/bjl/bjl_ws/build/birdbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/birdbot_application build --build-base /home/bjl/bjl_ws/build/birdbot_application/build install --record /home/bjl/bjl_ws/build/birdbot_application/install.log --single-version-externally-managed install_data
+[1.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/patrol_control_service': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:/home/bjl/bjl_ws/install/status_interfaces/lib:/home/bjl/bjl_ws/install/autopartol_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bjl/bjl_ws/build/patrol_control_service -- -j16 -l16
+[1.392s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bjl/bjl_ws/src/face_python_service'
+[1.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/src/autopartol_robot': PYTHONPATH=/home/bjl/bjl_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/bjl/bjl_ws/build/autopartol_robot/build install --record /home/bjl/bjl_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[1.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/src/demo_python_topic': PYTHONPATH=/home/bjl/bjl_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/bjl/bjl_ws/build/demo_python_topic/build install --record /home/bjl/bjl_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[1.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/status_display': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_display -- -j16 -l16
+[1.605s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bjl/bjl_ws/src/status_publisher'
+[1.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/patrol_control_service' returned '0': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:/home/bjl/bjl_ws/install/status_interfaces/lib:/home/bjl/bjl_ws/install/autopartol_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bjl/bjl_ws/build/patrol_control_service -- -j16 -l16
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/patrol_control_service': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:/home/bjl/bjl_ws/install/status_interfaces/lib:/home/bjl/bjl_ws/install/autopartol_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bjl/bjl_ws/build/patrol_control_service
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_application' for CMake module files
+[1.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/src/birdbot_application' returned '0': PYTHONPATH=/home/bjl/bjl_ws/build/birdbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/birdbot_application build --build-base /home/bjl/bjl_ws/build/birdbot_application/build install --record /home/bjl/bjl_ws/build/birdbot_application/install.log --single-version-externally-managed install_data
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_application' for CMake config files
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_application/lib'
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_application/bin'
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_application/lib/pkgconfig/birdbot_application.pc'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_application/lib/python3.10/site-packages'
+[1.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('birdbot_application', 'pythonpath')
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/hook/pythonpath.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/hook/pythonpath.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/hook/pythonpath.sh'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/birdbot_application/bin'
+[1.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(birdbot_application)
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/package.ps1'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/package.dsv'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/package.sh'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/package.bash'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/birdbot_application/share/birdbot_application/package.zsh'
+[1.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/birdbot_application/share/colcon-core/packages/birdbot_application)
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_display -- -j16 -l16
+[1.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/build/status_display': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_display
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_robot' for CMake module files
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/bjl/bjl_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/bjl/bjl_ws/build/autopartol_robot/build install --record /home/bjl/bjl_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_robot' for CMake config files
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_robot/lib'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_robot/bin'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_robot/lib/pkgconfig/autopartol_robot.pc'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_robot/lib/python3.10/site-packages'
+[1.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'pythonpath')
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.dsv'
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.sh'
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/autopartol_robot/bin'
+[1.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_robot)
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/package.ps1'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/package.dsv'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/package.sh'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/package.bash'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/autopartol_robot/share/autopartol_robot/package.zsh'
+[1.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/autopartol_robot/share/colcon-core/packages/autopartol_robot)
+[1.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(patrol_control_service)
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service' for CMake module files
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/patrol_control_service' returned '0': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:/home/bjl/bjl_ws/install/status_interfaces/lib:/home/bjl/bjl_ws/install/autopartol_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bjl/bjl_ws/build/patrol_control_service
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service' for CMake config files
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('patrol_control_service', 'cmake_prefix_path')
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/hook/cmake_prefix_path.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/hook/cmake_prefix_path.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/hook/cmake_prefix_path.sh'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/lib'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/bin'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/lib/pkgconfig/patrol_control_service.pc'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/lib/python3.10/site-packages'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/bin'
+[1.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.sh'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.bash'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.zsh'
+[1.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/patrol_control_service/share/colcon-core/packages/patrol_control_service)
+[1.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(patrol_control_service)
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service' for CMake module files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service' for CMake config files
+[1.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('patrol_control_service', 'cmake_prefix_path')
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/hook/cmake_prefix_path.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/hook/cmake_prefix_path.dsv'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/hook/cmake_prefix_path.sh'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/lib'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/bin'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/lib/pkgconfig/patrol_control_service.pc'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/lib/python3.10/site-packages'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/patrol_control_service/bin'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.ps1'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.sh'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.bash'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.zsh'
+[1.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/patrol_control_service/share/colcon-core/packages/patrol_control_service)
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_python_topic' for CMake module files
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_python_topic' for CMake config files
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/bjl/bjl_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/bjl/bjl_ws/build/demo_python_topic/build install --record /home/bjl/bjl_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_python_topic/lib'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_python_topic/bin'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_python_topic/lib/pkgconfig/demo_python_topic.pc'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages'
+[1.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_topic', 'pythonpath')
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/hook/pythonpath.ps1'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/hook/pythonpath.dsv'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/hook/pythonpath.sh'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/demo_python_topic/bin'
+[1.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_python_topic)
+[1.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/package.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/package.dsv'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/package.sh'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/package.bash'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic/package.zsh'
+[1.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/demo_python_topic/share/colcon-core/packages/demo_python_topic)
+[1.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display' for CMake module files
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_display
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display' for CMake config files
+[1.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_display', 'cmake_prefix_path')
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_display/share/status_display/hook/cmake_prefix_path.ps1'
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_display/share/status_display/hook/cmake_prefix_path.dsv'
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_display/share/status_display/hook/cmake_prefix_path.sh'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/lib'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/bin'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/lib/pkgconfig/status_display.pc'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/lib/python3.10/site-packages'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/bin'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.ps1'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/status_display/share/status_display/package.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.sh'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.bash'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.zsh'
+[1.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/status_display/share/colcon-core/packages/status_display)
+[1.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display' for CMake module files
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display' for CMake config files
+[1.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_display', 'cmake_prefix_path')
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_display/share/status_display/hook/cmake_prefix_path.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_display/share/status_display/hook/cmake_prefix_path.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_display/share/status_display/hook/cmake_prefix_path.sh'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/lib'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/bin'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/lib/pkgconfig/status_display.pc'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/lib/python3.10/site-packages'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_display/bin'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.ps1'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/status_display/share/status_display/package.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.sh'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.bash'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_display/share/status_display/package.zsh'
+[1.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/status_display/share/colcon-core/packages/status_display)
+[1.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/src/face_python_service': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:/home/bjl/bjl_ws/install/status_interfaces/lib:/home/bjl/bjl_ws/install/autopartol_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/bjl/bjl_ws/build/face_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_python_service build --build-base /home/bjl/bjl_ws/build/face_python_service/build install --record /home/bjl/bjl_ws/build/face_python_service/install.log --single-version-externally-managed install_data
+[1.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bjl/bjl_ws/src/status_publisher': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface PYTHONPATH=/home/bjl/bjl_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/bjl/bjl_ws/build/status_publisher/build install --record /home/bjl/bjl_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_python_service' for CMake module files
+[2.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/src/face_python_service' returned '0': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:/home/bjl/bjl_ws/install/status_interfaces/lib:/home/bjl/bjl_ws/install/autopartol_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/bjl/bjl_ws/build/face_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_python_service build --build-base /home/bjl/bjl_ws/build/face_python_service/build install --record /home/bjl/bjl_ws/build/face_python_service/install.log --single-version-externally-managed install_data
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_python_service' for CMake config files
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_python_service/lib'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_python_service/bin'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_python_service/lib/pkgconfig/face_python_service.pc'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages'
+[2.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_python_service', 'pythonpath')
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/hook/pythonpath.ps1'
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/hook/pythonpath.dsv'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/hook/pythonpath.sh'
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/face_python_service/bin'
+[2.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_python_service)
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/package.ps1'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/package.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/package.sh'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/package.bash'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/face_python_service/share/face_python_service/package.zsh'
+[2.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/face_python_service/share/colcon-core/packages/face_python_service)
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_publisher' for CMake module files
+[2.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bjl/bjl_ws/src/status_publisher' returned '0': CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/home/bjl/bjl_ws/install/status_display:/home/bjl/bjl_ws/install/patrol_control_service:/home/bjl/bjl_ws/install/face_interfaces:/home/bjl/bjl_ws/install/demo_cpp_topic:/home/bjl/bjl_ws/install/birdbot_navigation2:/home/bjl/bjl_ws/install/birdbot_description:/home/bjl/bjl_ws/install/autopartol_interface PYTHONPATH=/home/bjl/bjl_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/bjl/bjl_ws/build/status_publisher/build install --record /home/bjl/bjl_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_publisher' for CMake config files
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_publisher/lib'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_publisher/bin'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_publisher/lib/pkgconfig/status_publisher.pc'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages'
+[2.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_publisher', 'pythonpath')
+[2.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/hook/pythonpath.ps1'
+[2.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/hook/pythonpath.dsv'
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/hook/pythonpath.sh'
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/bjl/bjl_ws/install/status_publisher/bin'
+[2.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_publisher)
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/package.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/package.dsv'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/package.sh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/package.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/bjl/bjl_ws/install/status_publisher/share/status_publisher/package.zsh'
+[2.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bjl/bjl_ws/install/status_publisher/share/colcon-core/packages/status_publisher)
+[2.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.074s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.098s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.102s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.103s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjl/bjl_ws/install/local_setup.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bjl/bjl_ws/install/_local_setup_util_ps1.py'
+[2.105s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjl/bjl_ws/install/setup.ps1'
+[2.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjl/bjl_ws/install/local_setup.sh'
+[2.106s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bjl/bjl_ws/install/_local_setup_util_sh.py'
+[2.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjl/bjl_ws/install/setup.sh'
+[2.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjl/bjl_ws/install/local_setup.bash'
+[2.108s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjl/bjl_ws/install/setup.bash'
+[2.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bjl/bjl_ws/install/local_setup.zsh'
+[2.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bjl/bjl_ws/install/setup.zsh'

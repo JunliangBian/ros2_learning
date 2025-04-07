@@ -1,0 +1,29 @@
+[0.714s] Invoking command in '/home/bjl/bjl_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/demo_cpp_topic -- -j16 -l16
+[0.782s] [ 50%] Built target turtle_circle
+[0.788s] [100%] Built target turtle_circle_sub
+[1.062s] Invoked command in '/home/bjl/bjl_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/demo_cpp_topic -- -j16 -l16
+[1.077s] Invoking command in '/home/bjl/bjl_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/demo_cpp_topic
+[1.109s] -- Install configuration: ""
+[1.109s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[1.109s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle_sub
+[1.109s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/launch
+[1.109s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/launch/actions2.launch.py
+[1.110s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/launch/demo2.launch.py
+[1.110s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/launch/actions.launch.py
+[1.110s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/launch/demo.launch.py
+[1.110s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[1.110s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[1.110s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[1.112s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[1.113s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[1.113s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[1.113s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[1.113s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[1.114s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[1.114s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[1.114s] -- Installing: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[1.114s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[1.114s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[1.114s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[1.114s] -- Up-to-date: /home/bjl/bjl_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[1.123s] Invoked command in '/home/bjl/bjl_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/demo_cpp_topic

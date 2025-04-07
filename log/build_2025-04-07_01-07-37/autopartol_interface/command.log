@@ -1,0 +1,2 @@
+Invoking command in '/home/bjl/bjl_ws/build/autopartol_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bjl/bjl_ws/src/autopartol_interface -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/autopartol_interface
+Invoked command in '/home/bjl/bjl_ws/build/autopartol_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bjl/bjl_ws/src/autopartol_interface -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/autopartol_interface

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": [
+        "/home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "qlabel": "cpp"
+    }
+}

@@ -1,0 +1,6 @@
+Invoking command in '/home/bjl/bjl_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bjl/bjl_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/status_interfaces
+Invoked command in '/home/bjl/bjl_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bjl/bjl_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/status_interfaces
+Invoking command in '/home/bjl/bjl_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_interfaces -- -j16 -l16
+Invoked command in '/home/bjl/bjl_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_interfaces -- -j16 -l16
+Invoking command in '/home/bjl/bjl_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_interfaces
+Invoked command in '/home/bjl/bjl_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_interfaces

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopartol_interface__py",
+		"source" : "/home/bjl/bjl_ws/build/autopartol_interface/autopartol_interface__py"
+	}
+}

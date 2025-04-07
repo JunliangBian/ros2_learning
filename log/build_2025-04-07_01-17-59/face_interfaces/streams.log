@@ -1,0 +1,173 @@
+[0.042s] Invoking command in '/home/bjl/bjl_ws/build/face_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/face_interfaces -- -j16 -l16
+[0.617s] [ 10%] Built target face_interfaces__rosidl_generator_c
+[0.618s] [ 12%] Built target face_interfaces__cpp
+[0.619s] [ 12%] Built target ament_cmake_python_copy_face_interfaces
+[0.620s] [ 23%] Built target face_interfaces__rosidl_typesupport_cpp
+[0.621s] [ 33%] Built target face_interfaces__rosidl_typesupport_fastrtps_c
+[0.621s] [ 43%] Built target face_interfaces__rosidl_typesupport_c
+[0.621s] [ 53%] Built target face_interfaces__rosidl_typesupport_introspection_c
+[0.621s] [ 74%] Built target face_interfaces__rosidl_typesupport_introspection_cpp
+[0.621s] [ 71%] Built target face_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.621s] [ 74%] Built target face_interfaces
+[0.621s] [ 76%] Built target face_interfaces__py
+[0.623s] [ 84%] Built target face_interfaces__rosidl_generator_py
+[0.624s] [ 89%] Built target face_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.624s] [ 94%] Built target face_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.624s] [100%] Built target face_interfaces__rosidl_typesupport_c__pyext
+[0.624s] running egg_info
+[0.624s] writing face_interfaces.egg-info/PKG-INFO
+[0.625s] writing dependency_links to face_interfaces.egg-info/dependency_links.txt
+[0.625s] writing top-level names to face_interfaces.egg-info/top_level.txt
+[0.626s] reading manifest file 'face_interfaces.egg-info/SOURCES.txt'
+[0.626s] writing manifest file 'face_interfaces.egg-info/SOURCES.txt'
+[0.626s] [100%] Built target ament_cmake_python_build_face_interfaces_egg
+[0.627s] Invoked command in '/home/bjl/bjl_ws/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/face_interfaces -- -j16 -l16
+[0.631s] Invoking command in '/home/bjl/bjl_ws/build/face_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/face_interfaces
+[0.649s] -- Install configuration: ""
+[0.649s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/ament_index/resource_index/rosidl_interfaces/face_interfaces
+[0.649s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces
+[0.650s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[0.651s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.651s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[0.651s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[0.652s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__type_support.h
+[0.652s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__functions.h
+[0.652s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__functions.h
+[0.653s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__struct.h
+[0.653s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__struct.h
+[0.654s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__functions.c
+[0.654s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.h
+[0.654s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__functions.c
+[0.654s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/face_detector.h
+[0.654s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/partol.h
+[0.655s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/library_path.sh
+[0.655s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/library_path.dsv
+[0.655s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_generator_c.so
+[0.655s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces
+[0.656s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[0.656s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.656s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[0.656s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[0.656s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__rosidl_typesupport_fastrtps_c.h
+[0.656s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[0.658s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.658s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces
+[0.658s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[0.658s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.659s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[0.659s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/partol.hpp
+[0.659s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[0.659s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__builder.hpp
+[0.660s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__struct.hpp
+[0.660s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__traits.hpp
+[0.660s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__type_support.hpp
+[0.660s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.hpp
+[0.660s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__builder.hpp
+[0.660s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__traits.hpp
+[0.661s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__struct.hpp
+[0.661s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/face_detector.hpp
+[0.662s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces
+[0.663s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[0.668s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.668s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[0.668s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[0.668s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__rosidl_typesupport_fastrtps_cpp.hpp
+[0.669s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[0.669s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/dds_fastrtps
+[0.669s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.670s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces
+[0.672s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[0.673s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.677s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[0.678s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[0.678s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__type_support.c
+[0.679s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__rosidl_typesupport_introspection_c.h
+[0.679s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[0.680s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.c
+[0.680s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_c.so
+[0.680s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_c.so
+[0.681s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces
+[0.682s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[0.682s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[0.682s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.cpp
+[0.682s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[0.682s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__rosidl_typesupport_introspection_cpp.hpp
+[0.683s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/partol__type_support.cpp
+[0.683s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.683s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_cpp.so
+[0.684s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/pythonpath.sh
+[0.685s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/pythonpath.dsv
+[0.686s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info
+[0.687s] -- Installing: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.687s] -- Installing: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.687s] -- Installing: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.687s] -- Installing: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.687s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces
+[0.688s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.688s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/libface_interfaces__rosidl_generator_py.so
+[0.688s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv
+[0.689s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector_s.c
+[0.689s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_partol_s.c
+[0.689s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_partol.py
+[0.689s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector.py
+[0.690s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/__init__.py
+[0.690s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.690s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.691s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.692s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_c.c
+[0.693s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.694s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/__init__.py
+[0.757s] Listing '/home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces'...
+[0.757s] Listing '/home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv'...
+[0.769s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.769s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.769s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.769s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/lib/libface_interfaces__rosidl_generator_py.so
+[0.769s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/FaceDetector.idl
+[0.770s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/Partol.idl
+[0.770s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/FaceDetector.srv
+[0.771s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/FaceDetector_Request.msg
+[0.771s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/FaceDetector_Response.msg
+[0.771s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/Partol.srv
+[0.771s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/Partol_Request.msg
+[0.772s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/srv/Partol_Response.msg
+[0.772s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/ament_index/resource_index/package_run_dependencies/face_interfaces
+[0.772s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/ament_index/resource_index/parent_prefix_path/face_interfaces
+[0.773s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/ament_prefix_path.sh
+[0.773s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/ament_prefix_path.dsv
+[0.773s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/path.sh
+[0.774s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/environment/path.dsv
+[0.774s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/local_setup.bash
+[0.774s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/local_setup.sh
+[0.774s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/local_setup.zsh
+[0.775s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/local_setup.dsv
+[0.775s] -- Installing: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.dsv
+[0.775s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/ament_index/resource_index/packages/face_interfaces
+[0.775s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cExport.cmake
+[0.775s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.776s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.776s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.776s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cppExport.cmake
+[0.776s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.777s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.777s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.777s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.777s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cExport.cmake
+[0.778s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.778s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.778s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.778s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cppExport.cmake
+[0.778s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.778s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_pyExport.cmake
+[0.778s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.779s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.779s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.779s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.779s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.780s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.780s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.780s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.780s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfacesConfig.cmake
+[0.780s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/cmake/face_interfacesConfig-version.cmake
+[0.781s] -- Up-to-date: /home/bjl/bjl_ws/install/face_interfaces/share/face_interfaces/package.xml
+[0.842s] Invoked command in '/home/bjl/bjl_ws/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/face_interfaces

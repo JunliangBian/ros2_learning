@@ -1,0 +1,27 @@
+[0.624s] Invoking command in '/home/bjl/bjl_ws/build/birdbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_navigation2 -- -j16 -l16
+[0.944s] Invoked command in '/home/bjl/bjl_ws/build/birdbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_navigation2 -- -j16 -l16
+[0.949s] Invoking command in '/home/bjl/bjl_ws/build/birdbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_navigation2
+[1.021s] -- Install configuration: ""
+[1.021s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/launch
+[1.021s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/launch/navigation2.launch.py
+[1.023s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/config
+[1.023s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/config/nav2_params.yaml
+[1.023s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/maps
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/maps/room2.pgm
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/maps/room2.yaml
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/ament_index/resource_index/package_run_dependencies/birdbot_navigation2
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/ament_index/resource_index/parent_prefix_path/birdbot_navigation2
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/environment/ament_prefix_path.sh
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/environment/ament_prefix_path.dsv
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/environment/path.sh
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/environment/path.dsv
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/local_setup.bash
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/local_setup.sh
+[1.024s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/local_setup.zsh
+[1.025s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/local_setup.dsv
+[1.025s] -- Installing: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.dsv
+[1.025s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/ament_index/resource_index/packages/birdbot_navigation2
+[1.025s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/cmake/birdbot_navigation2Config.cmake
+[1.025s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/cmake/birdbot_navigation2Config-version.cmake
+[1.025s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_navigation2/share/birdbot_navigation2/package.xml
+[1.053s] Invoked command in '/home/bjl/bjl_ws/build/birdbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_navigation2

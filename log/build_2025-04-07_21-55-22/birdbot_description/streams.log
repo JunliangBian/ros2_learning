@@ -1,0 +1,53 @@
+[0.722s] Invoking command in '/home/bjl/bjl_ws/build/birdbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_description -- -j16 -l16
+[1.094s] Invoked command in '/home/bjl/bjl_ws/build/birdbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/birdbot_description -- -j16 -l16
+[1.099s] Invoking command in '/home/bjl/bjl_ws/build/birdbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_description
+[1.131s] -- Install configuration: ""
+[1.131s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch
+[1.131s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch/display_robot.launch.py
+[1.131s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch/display_robot2.launch.py
+[1.131s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/launch/gazebo_sim.launch.py
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.gv
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor/imu.urdf.xacro
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor/camera.urdf.xacro
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/sensor/laser.urdf.xacro
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/actuator
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/actuator/caster.urdf.xacro
+[1.135s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/actuator/wheel.urdf.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/base.urdf.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/birdbot.urdf.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/common_inertial.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins/gazebo_control_plugin.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins/birdbot.ros2_control.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/birdbot/plugins/gazebo_sensor_plugin.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.pdf
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.xacro
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/urdf/first_robot.urdf
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/config
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/config/display_robot_model.rviz
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/config/birdbot_ros2_controller.yaml
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/custom_room2.world
+[1.136s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/custom_room.world
+[1.137s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/room
+[1.137s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/room/model.sdf
+[1.137s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/world/room/model.config
+[1.137s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/ament_index/resource_index/package_run_dependencies/birdbot_description
+[1.137s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/ament_index/resource_index/parent_prefix_path/birdbot_description
+[1.144s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/ament_prefix_path.sh
+[1.144s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/ament_prefix_path.dsv
+[1.144s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/path.sh
+[1.144s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/environment/path.dsv
+[1.144s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.bash
+[1.144s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.sh
+[1.145s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.zsh
+[1.145s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/local_setup.dsv
+[1.145s] -- Installing: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.dsv
+[1.145s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/ament_index/resource_index/packages/birdbot_description
+[1.145s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/cmake/birdbot_descriptionConfig.cmake
+[1.146s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/cmake/birdbot_descriptionConfig-version.cmake
+[1.146s] -- Up-to-date: /home/bjl/bjl_ws/install/birdbot_description/share/birdbot_description/package.xml
+[1.202s] Invoked command in '/home/bjl/bjl_ws/build/birdbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/birdbot_description

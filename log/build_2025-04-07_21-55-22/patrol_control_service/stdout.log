@@ -1,0 +1,26 @@
+[ 20%] Built target turtle_control2
+[ 40%] Built target turtle_control3
+[ 70%] Built target partol_client
+[ 90%] Built target turtle_control
+[100%] Built target partol_client2
+-- Install configuration: ""
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/lib/patrol_control_service/turtle_control
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/lib/patrol_control_service/partol_client
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/lib/patrol_control_service/turtle_control2
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/lib/patrol_control_service/turtle_control3
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/lib/patrol_control_service/partol_client2
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/ament_index/resource_index/package_run_dependencies/patrol_control_service
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/ament_index/resource_index/parent_prefix_path/patrol_control_service
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/environment/path.sh
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/environment/path.dsv
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/local_setup.bash
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/local_setup.sh
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/local_setup.zsh
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/local_setup.dsv
+-- Installing: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.dsv
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/ament_index/resource_index/packages/patrol_control_service
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/cmake/patrol_control_serviceConfig.cmake
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/cmake/patrol_control_serviceConfig-version.cmake
+-- Up-to-date: /home/bjl/bjl_ws/install/patrol_control_service/share/patrol_control_service/package.xml

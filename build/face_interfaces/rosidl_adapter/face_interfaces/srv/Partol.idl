@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from face_interfaces/srv/Partol.srv
+// generated code does not contain a copyright notice
+
+
+module face_interfaces {
+  module srv {
+    struct Partol_Request {
+      float target_x;
+
+      float target_y;
+    };
+    module Partol_Response_Constants {
+      const int8 SUCESS = 1;
+      const int8 FAIL = 0;
+    };
+    struct Partol_Response {
+      @verbatim (language="comment", text=
+        "结果，SUCESS")
+      int8 result;
+    };
+  };
+};

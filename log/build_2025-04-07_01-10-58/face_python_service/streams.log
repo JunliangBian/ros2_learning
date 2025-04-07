@@ -1,0 +1,24 @@
+[0.705s] Invoking command in '/home/bjl/bjl_ws/src/face_python_service': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/build/face_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages:/home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_python_service build --build-base /home/bjl/bjl_ws/build/face_python_service/build install --record /home/bjl/bjl_ws/build/face_python_service/install.log --single-version-externally-managed install_data
+[0.877s] running egg_info
+[0.878s] writing ../../build/face_python_service/face_python_service.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/face_python_service/face_python_service.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../../build/face_python_service/face_python_service.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/face_python_service/face_python_service.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/face_python_service/face_python_service.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/face_python_service/face_python_service.egg-info/SOURCES.txt'
+[0.883s] writing manifest file '../../build/face_python_service/face_python_service.egg-info/SOURCES.txt'
+[0.883s] running build
+[0.883s] running build_py
+[0.883s] running install
+[0.883s] running install_lib
+[0.885s] running install_data
+[0.885s] running install_egg_info
+[0.886s] removing '/home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.887s] Copying ../../build/face_python_service/face_python_service.egg-info to /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service-0.0.0-py3.10.egg-info
+[0.887s] running install_scripts
+[0.903s] Installing face_detect_client_node script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+[0.903s] Installing face_detect_client_node2 script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+[0.904s] Installing face_detect_node script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+[0.904s] Installing learn_face_detect script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+[0.904s] writing list of installed files to '/home/bjl/bjl_ws/build/face_python_service/install.log'
+[0.938s] Invoked command in '/home/bjl/bjl_ws/src/face_python_service' returned '0': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/face_interfaces LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/build/face_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages:/home/bjl/bjl_ws/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_python_service build --build-base /home/bjl/bjl_ws/build/face_python_service/build install --record /home/bjl/bjl_ws/build/face_python_service/install.log --single-version-externally-managed install_data

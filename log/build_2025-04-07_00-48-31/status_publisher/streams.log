@@ -1,0 +1,37 @@
+[0.615s] Invoking command in '/home/bjl/bjl_ws/src/status_publisher': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages:/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/bjl/bjl_ws/build/status_publisher/build install --record /home/bjl/bjl_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.765s] running egg_info
+[0.766s] creating ../../build/status_publisher/status_publisher.egg-info
+[0.766s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.766s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.767s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.767s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.767s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.767s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.769s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.770s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.770s] running build
+[0.770s] running build_py
+[0.770s] creating /home/bjl/bjl_ws/build/status_publisher/build
+[0.771s] creating /home/bjl/bjl_ws/build/status_publisher/build/lib
+[0.771s] creating /home/bjl/bjl_ws/build/status_publisher/build/lib/status_publisher
+[0.771s] copying status_publisher/sys_status_pub.py -> /home/bjl/bjl_ws/build/status_publisher/build/lib/status_publisher
+[0.771s] copying status_publisher/__init__.py -> /home/bjl/bjl_ws/build/status_publisher/build/lib/status_publisher
+[0.771s] running install
+[0.771s] running install_lib
+[0.772s] creating /home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.772s] copying /home/bjl/bjl_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.772s] copying /home/bjl/bjl_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.773s] byte-compiling /home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[0.773s] byte-compiling /home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[0.773s] running install_data
+[0.773s] creating /home/bjl/bjl_ws/install/status_publisher/share/ament_index
+[0.774s] creating /home/bjl/bjl_ws/install/status_publisher/share/ament_index/resource_index
+[0.774s] creating /home/bjl/bjl_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.774s] copying resource/status_publisher -> /home/bjl/bjl_ws/install/status_publisher/share/ament_index/resource_index/packages
+[0.774s] copying package.xml -> /home/bjl/bjl_ws/install/status_publisher/share/status_publisher
+[0.775s] running install_egg_info
+[0.777s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[0.777s] running install_scripts
+[0.792s] Installing sys_status_pub script to /home/bjl/bjl_ws/install/status_publisher/lib/status_publisher
+[0.793s] writing list of installed files to '/home/bjl/bjl_ws/build/status_publisher/install.log'
+[0.816s] Invoked command in '/home/bjl/bjl_ws/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/status_publisher/lib/python3.10/site-packages:/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/bjl/bjl_ws/build/status_publisher/build install --record /home/bjl/bjl_ws/build/status_publisher/install.log --single-version-externally-managed install_data

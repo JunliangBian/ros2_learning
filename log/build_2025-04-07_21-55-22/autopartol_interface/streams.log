@@ -1,0 +1,151 @@
+[0.084s] Invoking command in '/home/bjl/bjl_ws/build/autopartol_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/autopartol_interface -- -j16 -l16
+[0.766s] [  9%] Built target autopartol_interface__rosidl_generator_c
+[0.766s] [ 12%] Built target autopartol_interface__cpp
+[0.766s] [ 22%] Built target autopartol_interface__rosidl_typesupport_fastrtps_c
+[0.766s] [ 41%] Built target autopartol_interface__rosidl_typesupport_introspection_c
+[0.766s] [ 41%] Built target autopartol_interface__rosidl_typesupport_c
+[0.766s] [ 41%] Built target ament_cmake_python_copy_autopartol_interface
+[0.767s] [ 51%] Built target autopartol_interface__rosidl_typesupport_introspection_cpp
+[0.767s] [ 61%] Built target autopartol_interface__rosidl_typesupport_cpp
+[0.767s] [ 70%] Built target autopartol_interface__rosidl_typesupport_fastrtps_cpp
+[0.767s] [ 70%] Built target autopartol_interface
+[0.767s] [ 74%] Built target autopartol_interface__py
+[0.767s] [ 80%] Built target autopartol_interface__rosidl_generator_py
+[0.767s] [ 87%] Built target autopartol_interface__rosidl_typesupport_introspection_c__pyext
+[0.767s] [ 93%] Built target autopartol_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.771s] [100%] Built target autopartol_interface__rosidl_typesupport_c__pyext
+[0.772s] running egg_info
+[0.772s] writing autopartol_interface.egg-info/PKG-INFO
+[0.772s] writing dependency_links to autopartol_interface.egg-info/dependency_links.txt
+[0.772s] writing top-level names to autopartol_interface.egg-info/top_level.txt
+[0.772s] reading manifest file 'autopartol_interface.egg-info/SOURCES.txt'
+[0.772s] writing manifest file 'autopartol_interface.egg-info/SOURCES.txt'
+[0.772s] [100%] Built target ament_cmake_python_build_autopartol_interface_egg
+[1.062s] Invoked command in '/home/bjl/bjl_ws/build/autopartol_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/bjl/bjl_ws/build/autopartol_interface -- -j16 -l16
+[1.062s] Invoking command in '/home/bjl/bjl_ws/build/autopartol_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/autopartol_interface
+[1.105s] -- Install configuration: ""
+[1.105s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/ament_index/resource_index/rosidl_interfaces/autopartol_interface
+[1.105s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface
+[1.105s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg
+[1.105s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg/rosidl_generator_c__visibility_control.h
+[1.105s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv
+[1.105s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/speech_text.h
+[1.105s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__type_support.h
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__functions.h
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__struct.h
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__functions.c
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/library_path.sh
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/library_path.dsv
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_generator_c.so
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[1.106s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_typesupport_fastrtps_c.so
+[1.107s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface
+[1.107s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg
+[1.107s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.107s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv
+[1.119s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail
+[1.119s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__type_support.c
+[1.119s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[1.120s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_typesupport_introspection_c.so
+[1.120s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_typesupport_c.so
+[1.120s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface
+[1.120s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg
+[1.121s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.121s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv
+[1.121s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail
+[1.121s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__struct.hpp
+[1.121s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__builder.hpp
+[1.121s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__type_support.hpp
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__traits.hpp
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/speech_text.hpp
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/dds_fastrtps
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv
+[1.122s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail
+[1.123s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[1.123s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/include/autopartol_interface/autopartol_interface/srv/detail/speech_text__type_support.cpp
+[1.123s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_typesupport_introspection_cpp.so
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_typesupport_cpp.so
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/pythonpath.sh
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/pythonpath.dsv
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface-0.0.0-py3.10.egg-info
+[1.124s] -- Installing: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.124s] -- Installing: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.124s] -- Installing: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface-0.0.0-py3.10.egg-info/top_level.txt
+[1.124s] -- Installing: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/autopartol_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/_autopartol_interface_s.ep.rosidl_typesupport_c.c
+[1.124s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/_autopartol_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/libautopartol_interface__rosidl_generator_py.so
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/_autopartol_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/srv
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/srv/_speech_text.py
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/srv/_speech_text_s.c
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/srv/__init__.py
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/autopartol_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/autopartol_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.125s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/__init__.py
+[1.176s] Listing '/home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface'...
+[1.176s] Listing '/home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/srv'...
+[1.190s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/autopartol_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.190s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/autopartol_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.191s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/local/lib/python3.10/dist-packages/autopartol_interface/autopartol_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.192s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/lib/libautopartol_interface__rosidl_generator_py.so
+[1.192s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/srv/SpeechText.idl
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/srv/SpeechText.srv
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/srv/SpeechText_Request.msg
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/srv/SpeechText_Response.msg
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/ament_index/resource_index/package_run_dependencies/autopartol_interface
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/ament_index/resource_index/parent_prefix_path/autopartol_interface
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/ament_prefix_path.sh
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/ament_prefix_path.dsv
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/path.sh
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/environment/path.dsv
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/local_setup.bash
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/local_setup.sh
+[1.193s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/local_setup.zsh
+[1.194s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/local_setup.dsv
+[1.194s] -- Installing: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.dsv
+[1.194s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/ament_index/resource_index/packages/autopartol_interface
+[1.194s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_generator_cExport.cmake
+[1.194s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_generator_cExport-noconfig.cmake
+[1.194s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.194s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.194s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_cExport.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_generator_cppExport.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.195s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_cppExport.cmake
+[1.196s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.196s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_generator_pyExport.cmake
+[1.196s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/export_autopartol_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.196s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/rosidl_cmake-extras.cmake
+[1.196s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.196s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.196s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.197s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.197s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.197s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.197s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interfaceConfig.cmake
+[1.197s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/cmake/autopartol_interfaceConfig-version.cmake
+[1.197s] -- Up-to-date: /home/bjl/bjl_ws/install/autopartol_interface/share/autopartol_interface/package.xml
+[1.266s] Invoked command in '/home/bjl/bjl_ws/build/autopartol_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bjl/bjl_ws/install/status_publisher:/home/bjl/bjl_ws/install/face_python_service:/home/bjl/bjl_ws/install/demo_python_topic:/home/bjl/bjl_ws/install/birdbot_application:/home/bjl/bjl_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/bjl/bjl_ws/build/autopartol_interface

@@ -1,0 +1,73 @@
+[0.060s] Invoking command in '/home/bjl/bjl_ws/build/status_display': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bjl/bjl_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/status_display
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.411s] -- The CXX compiler identification is GNU 11.4.0
+[0.609s] -- Detecting C compiler ABI info
+[0.690s] -- Detecting C compiler ABI info - done
+[0.696s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.697s] -- Detecting C compile features
+[0.697s] -- Detecting C compile features - done
+[0.699s] -- Detecting CXX compiler ABI info
+[0.809s] -- Detecting CXX compiler ABI info - done
+[0.814s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.814s] -- Detecting CXX compile features
+[0.815s] -- Detecting CXX compile features - done
+[0.818s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.954s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.029s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.166s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.170s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.176s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.232s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.233s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.231s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.256s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.712s] -- Looking for pthread.h
+[4.795s] -- Looking for pthread.h - found
+[4.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.893s] -- Found Threads: TRUE  
+[4.926s] -- Found status_interfaces: 0.0.0 (/home/bjl/bjl_ws/install/status_interfaces/share/status_interfaces/cmake)
+[4.993s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.049s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.050s] -- Configured cppcheck include dirs: 
+[5.050s] -- Configured cppcheck exclude dirs and/or files: 
+[5.050s] -- Added test 'lint_cmake' to check CMake code style
+[5.050s] -- Added test 'uncrustify' to check C / C++ code style
+[5.051s] -- Configured uncrustify additional arguments: 
+[5.051s] -- Added test 'xmllint' to check XML markup files
+[5.052s] -- Configuring done
+[5.062s] -- Generating done
+[5.064s] -- Build files have been written to: /home/bjl/bjl_ws/build/status_display
+[5.072s] Invoked command in '/home/bjl/bjl_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bjl/bjl_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/bjl/bjl_ws/install/status_display
+[5.074s] Invoking command in '/home/bjl/bjl_ws/build/status_display': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_display -- -j16 -l16
+[5.102s] [ 25%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[5.102s] [ 50%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[6.084s] [ 75%] [32m[1mLinking CXX executable hello_qt[0m
+[6.538s] [ 75%] Built target hello_qt
+[14.712s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[15.611s] [100%] Built target sys_status_display
+[15.620s] Invoked command in '/home/bjl/bjl_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bjl/bjl_ws/build/status_display -- -j16 -l16
+[15.621s] Invoking command in '/home/bjl/bjl_ws/build/status_display': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_display
+[15.627s] -- Install configuration: ""
+[15.627s] -- Installing: /home/bjl/bjl_ws/install/status_display/lib/status_display/hello_qt
+[15.627s] -- Installing: /home/bjl/bjl_ws/install/status_display/lib/status_display/sys_status_display
+[15.630s] -- Set runtime path of "/home/bjl/bjl_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[15.630s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[15.630s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[15.631s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[15.631s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[15.631s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/environment/path.sh
+[15.631s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/environment/path.dsv
+[15.632s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/local_setup.bash
+[15.632s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/local_setup.sh
+[15.632s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/local_setup.zsh
+[15.632s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/local_setup.dsv
+[15.632s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/package.dsv
+[15.632s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[15.632s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[15.633s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[15.633s] -- Installing: /home/bjl/bjl_ws/install/status_display/share/status_display/package.xml
+[15.635s] Invoked command in '/home/bjl/bjl_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bjl/bjl_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/bjl/bjl_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bjl/bjl_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bjl/bjl_ws/build/status_display

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "face_interfaces__py",
+		"source" : "/home/bjl/bjl_ws/build/face_interfaces/face_interfaces__py"
+	}
+}

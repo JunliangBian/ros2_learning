@@ -1,0 +1,41 @@
+[0.775s] Invoking command in '/home/bjl/bjl_ws/src/demo_python_topic': PYTHONPATH=/home/bjl/bjl_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/bjl/bjl_ws/build/demo_python_topic/build install --record /home/bjl/bjl_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.960s] running egg_info
+[0.960s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[0.961s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.961s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.961s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.961s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.962s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.963s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.963s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.963s] running build
+[0.963s] running build_py
+[0.964s] creating /home/bjl/bjl_ws/build/demo_python_topic/build
+[0.964s] creating /home/bjl/bjl_ws/build/demo_python_topic/build/lib
+[0.964s] creating /home/bjl/bjl_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.964s] copying demo_python_topic/novel_pub_node.py -> /home/bjl/bjl_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.965s] copying demo_python_topic/novel_sub_node.py -> /home/bjl/bjl_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.965s] copying demo_python_topic/__init__.py -> /home/bjl/bjl_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.965s] running install
+[0.965s] running install_lib
+[0.968s] creating /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.968s] copying /home/bjl/bjl_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.968s] copying /home/bjl/bjl_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_sub_node.py -> /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.968s] copying /home/bjl/bjl_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.968s] byte-compiling /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.969s] byte-compiling /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py to novel_sub_node.cpython-310.pyc
+[0.970s] byte-compiling /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[0.971s] running install_data
+[0.971s] creating /home/bjl/bjl_ws/install/demo_python_topic/share/ament_index
+[0.971s] creating /home/bjl/bjl_ws/install/demo_python_topic/share/ament_index/resource_index
+[0.971s] creating /home/bjl/bjl_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.971s] copying resource/demo_python_topic -> /home/bjl/bjl_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.971s] copying package.xml -> /home/bjl/bjl_ws/install/demo_python_topic/share/demo_python_topic
+[0.972s] running install_egg_info
+[0.973s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.973s] running install_scripts
+[0.992s] Installing novel_pub_node script to /home/bjl/bjl_ws/install/demo_python_topic/lib/demo_python_topic
+[0.993s] Installing novel_sub_node script to /home/bjl/bjl_ws/install/demo_python_topic/lib/demo_python_topic
+[0.993s] writing list of installed files to '/home/bjl/bjl_ws/build/demo_python_topic/install.log'
+[1.021s] Invoked command in '/home/bjl/bjl_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/bjl/bjl_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bjl/bjl_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/bjl/bjl_ws/build/demo_python_topic/build install --record /home/bjl/bjl_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

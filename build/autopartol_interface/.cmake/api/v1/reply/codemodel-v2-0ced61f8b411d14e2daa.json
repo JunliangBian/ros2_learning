@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2899784cb02626b4feb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "autopartol_interface__py",
+					"jsonFile" : "directory-autopartol_interface__py-843a3f7fe156b6b1c16c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/bjl/bjl_ws/build/autopartol_interface/autopartol_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "autopartol_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_autopartol_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_autopartol_interface_egg-bba549828f679bec1e59.json",
+					"name" : "ament_cmake_python_build_autopartol_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_autopartol_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_autopartol_interface-40b2a3db0ca2b832d2fe.json",
+					"name" : "ament_cmake_python_copy_autopartol_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface-c1672c619b8f9ee3c531.json",
+					"name" : "autopartol_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__cpp-a310f126089e758614d1.json",
+					"name" : "autopartol_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "autopartol_interface__py::@dfdfff5b92b4eaf9d003",
+					"jsonFile" : "target-autopartol_interface__py-42416f51b3979f7f69b4.json",
+					"name" : "autopartol_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_generator_c-aad02adcced354a73e3c.json",
+					"name" : "autopartol_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_generator_py-a8c11a1c1aa0b903638e.json",
+					"name" : "autopartol_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_c-5fc12b56b570b7871051.json",
+					"name" : "autopartol_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_c__pyext-8b48161ec9f635c8ea0c.json",
+					"name" : "autopartol_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_cpp-2a072f08bedf60a3ff1c.json",
+					"name" : "autopartol_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_fastrtps_c-c6c922e352d7ad72e3ff.json",
+					"name" : "autopartol_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_fastrtps_c__pyext-4961379379f36b2baa86.json",
+					"name" : "autopartol_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_fastrtps_cpp-0016bf9af65357ca0018.json",
+					"name" : "autopartol_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_introspection_c-66aab0e695dd41440ba6.json",
+					"name" : "autopartol_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_introspection_c__pyext-03e4945ca88362abb26d.json",
+					"name" : "autopartol_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface__rosidl_typesupport_introspection_cpp-9b65cbb0db0f892a6da3.json",
+					"name" : "autopartol_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autopartol_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autopartol_interface_uninstall-0d95cb447bfaf157b532.json",
+					"name" : "autopartol_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ed9d62a4cbc21f0594b9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bjl/bjl_ws/build/autopartol_interface",
+		"source" : "/home/bjl/bjl_ws/src/autopartol_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

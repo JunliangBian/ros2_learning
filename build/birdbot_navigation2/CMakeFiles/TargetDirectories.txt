@@ -1,0 +1,9 @@
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/uninstall.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/birdbot_navigation2_uninstall.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/test.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/edit_cache.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/rebuild_cache.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/list_install_components.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/install.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/install/local.dir
+/home/bjl/bjl_ws/build/birdbot_navigation2/CMakeFiles/install/strip.dir

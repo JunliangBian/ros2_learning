@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8484b9e8e971296b43c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "patrol_control_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "partol_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-partol_client-333e242f242215314acc.json",
+					"name" : "partol_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "partol_client2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-partol_client2-2e75a29a59b66de8f0dc.json",
+					"name" : "partol_client2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "patrol_control_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-patrol_control_service_uninstall-e4d6d677842023859302.json",
+					"name" : "patrol_control_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control-f50daaef3e7655cc3dae.json",
+					"name" : "turtle_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control2-e6a6df5fdf06e9cae130.json",
+					"name" : "turtle_control2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control3-22d7ab8526ddda4438c0.json",
+					"name" : "turtle_control3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8e623ec782c92ed56f4e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bjl/bjl_ws/build/patrol_control_service",
+		"source" : "/home/bjl/bjl_ws/src/patrol_control_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/face_python_service/face_python_service.egg-info
+writing ../../build/face_python_service/face_python_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/face_python_service/face_python_service.egg-info/dependency_links.txt
+writing entry points to ../../build/face_python_service/face_python_service.egg-info/entry_points.txt
+writing requirements to ../../build/face_python_service/face_python_service.egg-info/requires.txt
+writing top-level names to ../../build/face_python_service/face_python_service.egg-info/top_level.txt
+writing manifest file '../../build/face_python_service/face_python_service.egg-info/SOURCES.txt'
+reading manifest file '../../build/face_python_service/face_python_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/face_python_service/face_python_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bjl/bjl_ws/build/face_python_service/build
+creating /home/bjl/bjl_ws/build/face_python_service/build/lib
+creating /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service
+copying face_python_service/face_detect_node.py -> /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service
+copying face_python_service/face_detect_client_node.py -> /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service
+copying face_python_service/learn_face_detect.py -> /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service
+copying face_python_service/face_detect_client_node2.py -> /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service
+copying face_python_service/__init__.py -> /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service
+running install
+running install_lib
+creating /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service
+copying /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service/face_detect_node.py -> /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service
+copying /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service/face_detect_client_node.py -> /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service
+copying /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service/learn_face_detect.py -> /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service
+copying /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service/face_detect_client_node2.py -> /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service
+copying /home/bjl/bjl_ws/build/face_python_service/build/lib/face_python_service/__init__.py -> /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service
+byte-compiling /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service/learn_face_detect.py to learn_face_detect.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service/face_detect_client_node2.py to face_detect_client_node2.cpython-310.pyc
+byte-compiling /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/bjl/bjl_ws/install/face_python_service/share/ament_index
+creating /home/bjl/bjl_ws/install/face_python_service/share/ament_index/resource_index
+creating /home/bjl/bjl_ws/install/face_python_service/share/ament_index/resource_index/packages
+copying resource/face_python_service -> /home/bjl/bjl_ws/install/face_python_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/bjl/bjl_ws/install/face_python_service/share/face_python_service
+creating /home/bjl/bjl_ws/install/face_python_service/share/face_python_service/resource
+copying resource/default.jpg -> /home/bjl/bjl_ws/install/face_python_service/share/face_python_service/resource
+copying resource/test1.jpg -> /home/bjl/bjl_ws/install/face_python_service/share/face_python_service/resource
+running install_egg_info
+Copying ../../build/face_python_service/face_python_service.egg-info to /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service-0.0.0-py3.10.egg-info
+running install_scripts
+Installing face_detect_client_node script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+Installing face_detect_client_node2 script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+Installing face_detect_node script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+Installing learn_face_detect script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+writing list of installed files to '/home/bjl/bjl_ws/build/face_python_service/install.log'

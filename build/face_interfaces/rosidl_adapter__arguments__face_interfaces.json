@@ -1,0 +1,7 @@
+{
+  "package_name": "face_interfaces",
+  "non_idl_tuples": [
+    "/home/bjl/bjl_ws/src/face_interfaces:srv/FaceDetector.srv",
+    "/home/bjl/bjl_ws/src/face_interfaces:srv/Partol.srv"
+  ]
+}

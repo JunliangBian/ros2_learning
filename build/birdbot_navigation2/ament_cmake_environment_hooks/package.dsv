@@ -1,0 +1,4 @@
+source;share/birdbot_navigation2/local_setup.bash
+source;share/birdbot_navigation2/local_setup.dsv
+source;share/birdbot_navigation2/local_setup.sh
+source;share/birdbot_navigation2/local_setup.zsh

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/face_python_service/face_python_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/face_python_service/face_python_service.egg-info/dependency_links.txt
+writing entry points to ../../build/face_python_service/face_python_service.egg-info/entry_points.txt
+writing requirements to ../../build/face_python_service/face_python_service.egg-info/requires.txt
+writing top-level names to ../../build/face_python_service/face_python_service.egg-info/top_level.txt
+reading manifest file '../../build/face_python_service/face_python_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/face_python_service/face_python_service.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/face_python_service/face_python_service.egg-info to /home/bjl/bjl_ws/install/face_python_service/lib/python3.10/site-packages/face_python_service-0.0.0-py3.10.egg-info
+running install_scripts
+Installing face_detect_client_node script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+Installing face_detect_client_node2 script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+Installing face_detect_node script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+Installing learn_face_detect script to /home/bjl/bjl_ws/install/face_python_service/lib/face_python_service
+writing list of installed files to '/home/bjl/bjl_ws/build/face_python_service/install.log'
