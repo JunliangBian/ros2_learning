@@ -80,4 +80,4 @@ ros2 launch autopartol_robot autopatrol.launch.py
 
 ## 3.作者
 
-- [shayebushi](https://gitee.com/bian-junliang/ros2-learning)
+- [shayebushi](https://github.com/JunliangBian/ros2_learning)
